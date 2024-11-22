@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(blue, green);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid gold;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: gold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: gold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#hbd {
+    height: 400px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid gold;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#angry-hulk:hover {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/hulk-thor-ragnarok-2-1548346471.jpg?crop=0.503xw:1.00xh;0.145xw,0&resize=640:*");
+    background-size: cover;
+}
+
+#smart-hulk:hover {
+    background-image: url("https://ew.com/thmb/B353n6cxx7VNl6TM812hf8qFaT4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mark-ruffalo-hulk-021224-7809ceb8454944b19011c0159f6d1b58.jpg");
+    background-size: cover;
+}
+
+#mark-tony:hover {
+    background-image: url("https://ew.com/thmb/9BuLpSjs1V9qZ9__Y5H0TD_AA5g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Robert-Downey-Jr-Mark-Ruffalo-120423-4d95c943aef54da5aecf3ca1358a0645.jpg");
+    background-size: cover;
+}
+
+#avengers:hover {
+    background-image: url("https://i.dailymail.co.uk/1s/2024/07/07/06/87028035-13608425-image-a-54_1720330084694.jpg");
+    background-size: cover;
+}
+
+#hbd:hover {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHa0a-QnXcGg2bXZ9OurcySBFH885J1EP4mDrfDqAHOKKmv5pcVS4kOS0kMMCWVNy4j0&usqp=CAU");
+    background-size: cover;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
